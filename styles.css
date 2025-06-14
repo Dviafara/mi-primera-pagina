@@ -3,18 +3,63 @@ body{
 }
 
 h3{
-    background-color: wheat;
+    
 }
 
 .tittle{
-    font-size: 20px;
+    font-size: 2em;
     color: brown;
 }
 
-#principal{
-    font-size: 40px;
+#titulo{
+    font-size: 3.5em;
+    text-align: center;
 }
 
 .portada{
-    width: 50px;
+width: 30em;
+}
+
+.portadaContainer{
+    width:fit-content;
+    margin: auto;
+}
+
+.principal{
+    border:2px solid black;
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+
+.menu{
+    background-color: wheat;
+    width:80%;
+    margin: auto;
+    padding: 1em;
+}
+
+nav{
+    text-align: center;
+}
+
+.cardsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    gap: 1em;
+}
+.cards{
+    border: 2px solid black;
+    width: 500px;
+    padding: 0px 1em 1em 1em;
+    transition: 1s;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cards:hover{
+    background-color: rgba(167, 163, 143, 0.541);
 }

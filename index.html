@@ -2,56 +2,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <h1 class="tittle" id="principal">Este es el titulo principal de mi pagina WEB</h1>
-            
-        <span>Home</span>
-        <span>Noticias</span>
-        <span>Clima</span>
+        <div class="principal">
+            <h1 class="tittle" id="titulo">Este es el titulo principal de mi pagina WEB</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Noticias</a>
+                <a href="#">Clima</a>
+            </nav>
+        </div>
     </header>
     
     <hr />
 
     <main>
-        <img src="./noticias.jpg" class="portada" />
+        <div class="portadaContainer">
+            <img src="./noticias.jpg" class="portada" />
+        </div>
         <section>
             <h2 class="tittle">Este es el titulo de una seccion de noticias</h2>
             
-            <article>
-                <h3 class="tittle">Esta es la noticia N°1</h3>
-                <div>
-                    <p>Este es el primer parrafo</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nihil nostrum animi doloribus, aut illum nesciunt optio repellat! Reprehenderit explicabo a id debitis sint hic molestiae neque sequi earum minima.</p>
-                </div>          
-            </article>
+            <div class="cardsContainer">
+                <div class="cards">
+                    <article>
+                        <h3 class="tittle">Esta es la noticia N°1</h3>
+                        <div>
+                            <p>Este es el primer parrafo</p>
+                            <p>Lorem ipsumis siiae neque sequi earum minima.</p>
+                        </div>          
+                    </article>
+                </div>
                 
-            <hr />
-            
-            <article>
-                <h3 class="tittle">Esta es la noticia N°2</h3>
-                <p>Este es un listado ordenado</p>                
-                <ol>
-                    <li>Este es el item 1</li>
-                    <li>Este es el item 2</li>
-                    <li>Este es el item 3</li>
-                </ol>
-            </article>
+                <div class="cards">
+                    <article>
+                        <h3 class="tittle">Esta es la noticia N°2</h3>
+                        <p>Este es un listado ordenado</p>                
+                        <ol>
+                            <li>Este es el item 1</li>
+                            <li>Este es el item 2</li>
+                            <li>Este es el item 3</li>
+                        </ol>
+                    </article>
+                </div>
                 
-            <hr />
-
-            <article>
-                <h3 class="tittle">Esta es la noticia N°3</h3>
-                <p>Este es un listado no ordenado</p>
-                <ul>
-                    <li>Este es un elemento</li>
-                    <li>Este es un elemento adicional</li>
-                    <li>Este es otro elemento adicional</li>
-                </ul>
-            </article>
+                <div class="cards">
+                    <article>
+                        <h3 class="tittle">Esta es la noticia N°3</h3>
+                        <p>Este es un listado no ordenado</p>
+                        <ul>
+                            <li>Este es un elemento</li>
+                            <li>Este es un elemento adicional</li>
+                            <li>Este es otro elemento adicional</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
         </section>
     </main>
     

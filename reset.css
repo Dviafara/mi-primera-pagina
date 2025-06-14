@@ -1,0 +1,48 @@
+/* RESET CSS MODERNO */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Elimina el estilo de borde y fondo en elementos interactivos */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* Asegura que los enlaces hereden el color y quiten subrayado por defecto */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Mejora la apariencia de listas */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Mejora el aspecto tipográfico por defecto */
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Evita desbordamientos horizontales accidentales */
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
